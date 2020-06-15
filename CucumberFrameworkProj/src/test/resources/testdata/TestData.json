@@ -1,0 +1,23 @@
+{
+	"Dev": {
+		"Common": {
+			"AppURL": "http://newtours.demoaut.com/mercurywelcome.php"
+		},
+		"TestCases": {
+		}
+	},
+	"Test": {
+		"Common": {
+			"AppURL": "http://newtours.demoaut.com/mercurywelcome.php"
+		},
+		"TestCases": {
+		}
+	},
+	"Stage": {
+		"Common": {
+			"AppURL": "http://newtours.demoaut.com/mercurywelcome.php"
+		},
+		"TestCases": {
+		}
+	}
+}

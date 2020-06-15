@@ -1,0 +1,29 @@
+<Automation>
+	<Dev>
+		<Common>
+			<AppURL>http://newtours.demoaut.com/mercurywelcome.php</AppURL>
+		</Common>
+
+		<TestCases>
+		</TestCases>
+
+	</Dev>
+
+	<Test>
+
+		<Common>
+			<AppURL>http://newtours.demoaut.com/mercurywelcome.php</AppURL>
+		</Common>
+		<TestCases>
+		</TestCases>
+	</Test>
+	<Stage>
+		<Common>
+			<AppURL>http://newtours.demoaut.com/mercurywelcome.php</AppURL>
+		</Common>
+		<TestCases>
+		</TestCases>
+
+
+	</Stage>
+</Automation>
