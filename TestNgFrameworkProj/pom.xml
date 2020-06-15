@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>SDET_Professional_7th_March_Batch1</groupId>
+	<artifactId>SDET_Professional_7th_March_Batch1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<selversion>3.14.0</selversion>
+		<cucumberversion>5.6.0</cucumberversion>
+		<testngversion>7.1.0</testngversion>
+		<testngsuitefile></testngsuitefile>
+
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>5.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>5.6.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testngversion}</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/com.jayway.jsonpath -->
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<version>2.4.0</version>
+			
+		</dependency>
+
+	</dependencies>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+
+
+		<testSourceDirectory>${project.basedir}/src/main/java</testSourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<!-- <includes>**/runner*.java</includes> -->
+					<!-- <threadCount>10</threadCount> -->
+					<!-- <parallel>all</parallel> -->
+
+				</configuration>
+
+			</plugin>
+		</plugins>
+	</build>
+</project>
