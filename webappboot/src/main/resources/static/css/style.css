@@ -1,0 +1,44 @@
+<style type="text/css">
+body {
+	font-family: sans-serif;
+}
+
+h2 {
+	background-color: fuchsia;
+}
+
+table, th, td{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+div#participants {
+	float: right;
+	width:550px;
+}
+
+div#course {
+	width: 450px;
+}
+
+footer{
+margin-top : 100px;
+text-align : center;
+}
+
+li{
+ padding : 10px;
+
+}
+
+.tclass{
+	border-style: solid;
+	border-width: 2px;
+} 
+
+div.error{
+	color: red;
+	font-family: fantasy;
+}
+</style>
